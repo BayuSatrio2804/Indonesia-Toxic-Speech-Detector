@@ -79,7 +79,15 @@ The notebook also creates:
 outputs/toxic_speech_inference_artifacts.zip
 ```
 
-That zip contains only the files required for CPU inference: `toxic_speech_model_onnx_cpu/`, `label_mapping.json`, `threshold.json`, and `metrics.json`. Generated model artifacts are not part of the committed repository.
+That zip contains only the files required for CPU inference: `toxic_speech_model_onnx_cpu/`, `label_mapping.json`, `threshold.json`, and `metrics.json`.
+
+In Colab, the notebook mounts Google Drive and copies the inference zip to:
+
+```text
+/content/drive/MyDrive/Indonesia-Toxic-Speech-Detector/toxic_speech_inference_artifacts.zip
+```
+
+The notebook does not download the archive through the browser, so the local client connection is not the bottleneck. Generated model artifacts are not part of the committed repository.
 
 ## CPU Inference Contract
 
