@@ -76,10 +76,10 @@ artifacts/
 The notebook also creates:
 
 ```text
-toxic_speech_inference_artifacts.zip
+outputs/toxic_speech_inference_artifacts.zip
 ```
 
-Generated model artifacts are not part of the committed repository.
+That zip contains only the files required for CPU inference: `toxic_speech_model_onnx_cpu/`, `label_mapping.json`, `threshold.json`, and `metrics.json`. Generated model artifacts are not part of the committed repository.
 
 ## CPU Inference Contract
 
