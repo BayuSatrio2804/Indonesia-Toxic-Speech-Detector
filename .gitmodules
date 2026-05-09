@@ -1,0 +1,6 @@
+[submodule "HateSpeech-BE"]
+	path = HateSpeech-BE
+	url = git@github.com:BayuSatrio2804/HateSpeech-BE.git
+[submodule "HateSpeech-FE"]
+	path = HateSpeech-FE
+	url = git@github.com:BayuSatrio2804/HateSpeech-FE.git
