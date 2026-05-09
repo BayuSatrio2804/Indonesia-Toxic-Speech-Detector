@@ -1,6 +1,0 @@
-[submodule "toxic-speech-be"]
-	path = toxic-speech-be
-	url = https://github.com/BayuSatrio2804/toxic-speech-be.git
-[submodule "toxic-speech-fe"]
-	path = toxic-speech-fe
-	url = https://github.com/BayuSatrio2804/toxic-speech-fe.git
